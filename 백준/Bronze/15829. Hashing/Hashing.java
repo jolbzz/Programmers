@@ -9,9 +9,9 @@ class Main {
         int length = Integer.parseInt(br.readLine());
         int r = 31;
         int M = 1234567891;
-        int rr = 1;
+        long rr = 1;
         String temp = br.readLine();
-        int answer = 0;
+        long answer = 0;
         
         for(int i = 0; i < length; i++)
         {
